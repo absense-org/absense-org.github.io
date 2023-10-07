@@ -1,0 +1,11 @@
+body {
+  background-color: linen;
+}
+
+p {
+    font-family: "Lucida Console", "Menlo", "Monaco", "Courier", monospace;;
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 2.0rem;
+}
+
