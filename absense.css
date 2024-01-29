@@ -1,11 +1,47 @@
 body {
   background-color: linen;
+  font-family: "Arial", "Helvetica", sans-serif;
 }
 
-p {
-    font-family: "Lucida Console", "Menlo", "Monaco", "Courier", monospace;;
+p,ol,ul {
+  font-size: 0.8rem;
+  text-align: left;
+  padding-top: 0.4rem;
+  padding-left: 2.0rem;
+  padding-right: 2.0rem;
+  font-family: "Lucida Console", "Menlo", "Monaco", "Courier", monospace;  
+}
+
+p.datestamp {
+  font-size: 0.7rem;
+  font-style: italic;
+  test-align: left;
+  padding-top: 0.0rem;
+  padding-left: 0.0rem;
+  font-family: "Arial", "Helvetica", sans-serif;
+  color: darkred;
+}
+
+h1 {
+    font-size: 1.2rem;
+    text-align: left;
+    padding-top: 0.8rem;
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+
+h2 {
+  border-top: 1px solid darkblue;
+
+  font-size: 1.0rem;
+    text-align: left;
+    padding-top: 0.8rem;
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+
+h3,h4,h5,h6 {
     font-size: 0.8rem;
-    text-align: center;
-    padding-top: 2.0rem;
+    text-align: left;
+    padding-top: 0.8rem;
+    font-family: "Arial", "Helvetica", sans-serif;
 }
 
